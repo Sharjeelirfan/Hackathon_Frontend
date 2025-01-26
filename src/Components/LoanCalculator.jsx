@@ -262,7 +262,7 @@
             <button
                 type="button"
                 onClick={handleApplyLoan}
-                className="mt-4 w-full py-2 text-white bg-green-600 rounded-lg hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500"
+                className="mt-4 w-full py-2 text-black bg-green-600 rounded-lg hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500"
             >
                 Apply for Loan
             </button>
