@@ -5,13 +5,13 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <nav className="bg-[#8dc63f] text-white p-4 shadow-md flex justify-center ">
+    <nav className="bg-green-400 text-white p-4 shadow-md flex justify-center ">
       <div className="container mx-auto flex justify-between items-center">
         <h1 className="text-xl font-bold">Saylani Welfare</h1>
         {/* <Image src="@/assets/logo" /> */}
       </div>
       <div>
-        
+
         <Link href="/Login">Login</Link>
       </div>
     </nav>

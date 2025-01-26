@@ -8,7 +8,7 @@ export const LoanCategoryCard = ({ title, description, onSelect }) => {
       <p className="text-gray-600">{description}</p>
       <button
         onClick={() => onSelect(title)}
-        className="mt-4 px-4 py-2 bg-[#8dc63f] text-white rounded hover:bg-blue-600 active:bg-[#8dc63f]"
+        className="mt-4 px-4 py-2 bg-green-400  rounded text-black hover:bg-blue-600 active:bg-green-400"
       >
         Get Loan
       </button>
