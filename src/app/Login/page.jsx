@@ -95,11 +95,12 @@ export default function LoginForm() {
 
         {/* Password Reset Link */}
         <div className="text-center mt-4">
-          Don't have an account{" "}
+          Don&apos;t have an account{" "}
           <Link href="SignUp" className="underline text-blue-600">
             Sign Up
           </Link>
         </div>
+
         <div className="text-center mt-4">
           <Link href="ResetPassword" className="text-blue-500 hover:underline">
             Forgot your password?
