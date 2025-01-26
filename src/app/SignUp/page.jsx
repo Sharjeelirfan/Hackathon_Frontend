@@ -21,11 +21,14 @@ export default function RegistrationForm() {
     setSuccessMessage("");
 
     try {
-      const response = await axios.post("http://localhost:5000/api/v1/signup", {
-        fullName,
-        cnic,
-        email,
-      });
+      const response = await axios.post(
+        "https://backend-hackathon-henna.vercel.app/api/v1/signup",
+        {
+          fullName,
+          cnic,
+          email,
+        }
+      );
       setSuccessMessage(response.data.message || "Registration successful!");
       router.push("/LoanRequest")
     } catch (error) {

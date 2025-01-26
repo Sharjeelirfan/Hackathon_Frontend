@@ -51,7 +51,7 @@
     const [initialDeposit, setInitialDeposit] = useState("");
     const [loanBreakdown, setLoanBreakdown] = useState(null);
 
-    const url = "http://localhost:5000";
+    const url = "https://backend-hackathon-henna.vercel.app";
     const router = useRouter();
     const selectedCategoryDetails = categories.find(
         (cat) => cat.name === selectedCategory
